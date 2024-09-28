@@ -25,3 +25,18 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Hide scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.scroll-container {
+  scrollbar-width: none; /* Hide scrollbar */
+}
+
+/* Hide scrollbar for IE, Edge */
+.scroll-container {
+  -ms-overflow-style: none; /* Hide scrollbar */
+}
